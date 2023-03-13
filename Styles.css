@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+header {
+    background-image: url(assets/fondo-inicio-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    padding: 0%;
+}
+
+.container-nav {
+    color: #fff;
+    background: linear-gradient(179deg, #013370, #013370);
+}
+
+a.nav-link {
+    color: white;
+}
+
+.navegacion {
+    display: flex;
+    gap: 20px;
+}
+
+.navegacion a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+.logo {
+    color: #fff;
+}
+
+.titulo-home {
+    height: 68vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.titulo-texto {
+    font-size: 130px;
+}
+
+/*-----pagina-nosotros----*/
+.section-nosotros {
+    padding: 2%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.cta-wp {
+    margin-top: 21px;
+}
+
+/*----servicios-------*/
+
+.section-servicios {
+    padding: 2%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.servicios-col {
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.servicios-padre {
+    position: relative;
+}
+
+.servicios-text {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 25px;
+}
+
+.servicios-img {
+    padding: 1%;
+    width: 95%;
+}
+
+.tittle-1 {
+    margin: 52px 0px 93px 0px!important;
+}
+
+/*----promocion----*/
+
+.section-promocion {
+    height: 70vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.img-promocion {
+    width: 100%;
+}
+
+.text-promocion {
+    padding: 3%;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.text-promocion p {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+/*---Contacto---*/
+
+.section-contacto {
+    padding: 2%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.text-contacto {
+    font-size: 2em;
+    color: #013370;
+    margin-bottom: 8%;
+}
+
+.caja {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    outline: 0;
+}
+
+.btn-form {
+    width:80%;
+    margin-top: 10px;
+ }
+ 
+ .section-servicios-2 {
+    text-align: center;
+ }
